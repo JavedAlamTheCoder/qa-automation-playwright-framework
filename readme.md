@@ -129,7 +129,7 @@ Assumption: Since the provided existing user credentials were not valid during m
 1. The application URL is stable and functional.
 2. The application does not have CAPTCHA or bot detection that interferes with automation.
 3. Network connectivity is available to access the application and its API.
-4. The existing user flow test registers a user dynamically before testing login, since the provided static credentials (`testinguser398@gmail.com` / `Javed@778`) returned "Incorrect email or password" during validation. To use pre-existing credentials, update `testData.json` with valid values and modify the `existingUserFlow.spec.js` to skip the `beforeAll` registration step.
+4. The existing user flow dynamically registers a user before testing login, since the provided static credentials were not valid during validation. To use pre-existing credentials, update testData.json with valid values and modify the existingUserFlow.spec.js to skip the beforeAll registration step.
 5. Test data in `testData.json` can be modified to support different environments.
 6. The viewport width of 1400px is sufficient to render all UI elements without responsive hiding.
 7. The "ADIDAS ORIGINAL" product is always available on the dashboard for adding to cart.
