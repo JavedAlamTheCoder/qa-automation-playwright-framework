@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation-framework",
+  "version": "1.0.0",
+  "description": "Playwright + JavaScript E2E Automation Framework for Rahul Shetty Academy E-Commerce App",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:new-user": "npx playwright test --grep @newUser",
+    "test:existing-user": "npx playwright test --grep @existingUser",
+    "test:debug": "npx playwright test --debug",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

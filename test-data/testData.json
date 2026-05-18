@@ -1,0 +1,28 @@
+{
+  "newUser": {
+    "firstName": "Automation",
+    "lastName": "Tester",
+    "phone": "9876543210",
+    "occupation": "Student",
+    "gender": "Male",
+    "password": "Test@Automation123",
+    "successMessage": "Account Created Successfully"
+  },
+  "existingUser": {
+    "email": "",
+    "password": ""
+  },
+  "product": {
+    "searchTerm": "ADIDAS",
+    "expectedProduct": "ADIDAS ORIGINAL",
+    "alternativeSearchTerms": ["ZARA", "IPHONE"]
+  },
+  "cart": {
+    "expectedColumns": ["MRP", "IN STOCK", "SUBTOTAL", "TOTAL"]
+  },
+  "messages": {
+    "loginSuccess": "Login Successfully",
+    "productAdded": "Product Added To Cart",
+    "registerSuccess": "Registered Successfully"
+  }
+}
